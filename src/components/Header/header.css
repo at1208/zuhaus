@@ -1,0 +1,61 @@
+.header{
+  background-color: rgba(0, 0, 0, 1);
+  height: 60px;
+}
+.logo{
+  padding: 18px;
+  height: 100%;
+  /* width: 180px; */
+
+  /* background-color: yellow; */
+}
+.logo-img{
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-button{
+  font-family: 'Hind', sans-serif;
+  color: white;
+  font-size: 11px;
+  letter-spacing: 3px;
+
+
+}
+.buttons{
+  padding: 16px 0px 0px 20px;
+}
+.add-listing{
+  padding: 9px;
+  width: 153px;
+  height: 36px;
+  border-color: #fc0!important;
+  color: white;
+  font-size: 12px;
+  padding: 7px 14px 3px 20px;
+  background-color: rgba(0, 0, 0, 1);
+  font-family: 'Hind', sans-serif;
+  letter-spacing: 3px;
+
+}
+.add-listing-button{
+    padding: 10px 0px 0px 20px;
+}
+.plus-icon{
+ font-weight: 600;
+}
+.user-login-icon{
+  color: grey;
+  font-size: 20px;
+  border: 0.5px solid white;
+  /* padding: 10px; */
+  /* margin-left: 4px;
+  margin-top: 1px; */
+  border-radius: 3px;
+  padding: 7px;
+
+
+}
+.user-login{
+  padding: 0px 0px 0px 4px!important;
+}
