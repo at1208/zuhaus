@@ -20,16 +20,30 @@
   background-image: url("https://zuhaus.qodeinteractive.com/wp-content/uploads/2017/10/home-parallax-1.png");
    background-position: 50% 57px;
    height: auto!important;
-   min-height: 420px!important;
+   min-height: 440px!important;
    font-family: 'Josefin Sans', sans-serif;
    padding-top: 30px;
 }
+@media (max-width: 773px) {
 
+  .corousel{
+    background-image: url("https://zuhaus.qodeinteractive.com/wp-content/uploads/2017/10/home-parallax-1.png");
+     background-position: 50% 57px;
+     height: auto!important;
+     min-height: 520px!important;
+     font-family: 'Josefin Sans', sans-serif;
+     padding-top: 30px;
+  }
+
+  .carousel-inner{
+    height: 375px!important;
+  }
+}
 .special-offer{
   font-size: 20px;
 }
 .carousel-inner{
-  height: 200px;
+  height: 300px;
 }
 .row{
   margin-left: 0px;
@@ -42,6 +56,6 @@
   padding-left: 0px!important;
   padding-right: 0px!important;
 }
-.box1{
+/* .box1{
   height: 200px;
-}
+} */

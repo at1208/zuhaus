@@ -32,10 +32,9 @@ const Footer = () => {
            <div className='row'>
             <Input placeholder="Enter your email" className='col  footer-input'/>
             <button className='footer-submit col btn'>Submit</button>
-              <p className='logo-text logos-text'>Don’t forget to follow us on:</p>
-              <Icon type="twitter" className='brand'/> <Icon type="instagram" className='brand' /> <Icon type="facebook" className='brand'/>
            </div>
-
+           <p className='logo-text logos-text'>Don’t forget to follow us on:</p>
+           <Icon type="twitter" className='brand'/> <Icon type="instagram" className='brand' /> <Icon type="facebook" className='brand'/>
          </div>
        </div>
        <div className='bottom container-fluid'>
