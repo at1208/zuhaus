@@ -14,24 +14,24 @@ const City = () => {
     <div className='container-fluid'>
      <div className='row col justify-content-center'>
          <div className='col-md-2 card city-container shadow'>
-         <img className="city-img" src=' '/>
+         <img className="city-img" src='https://i.pinimg.com/736x/6f/f0/8e/6ff08e1987d5fad7d70aca17a3814448.jpg'/>
          </div>
 
          <div className='col-md-2 card city-container shadow'>
-         <img className="city-img" src=' '/>
+         <img className="city-img" src='https://images.squarespace-cdn.com/content/v1/577c8c6cbebafbe36dfc571f/1499834991287-R15ORZSEBEXOTYYZ663L/ke17ZwdGBToddI8pDm48kJLVc0JNuG8vKAQIG1VFNlZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmyh-8_5GJNvrfz4o4yOfLSyEcSu3pFHkLv0beiduqeSNjQ5OnKaRvDejNRIDY8PCO/SF+Cityscape+X1D_Sentinel-189.jpg'/>
 
          </div>
 
          <div className='col-md-2 card city-container shadow'>
-         <img className="city-img" src=' '/>
+         <img className="city-img" src='https://i.pinimg.com/originals/96/b2/d5/96b2d500780729a30b9f749bdb26ecfb.jpg'/>
 
          </div>
          <div className='col-md-2 card city-container shadow'>
-         <img className="city-img" src=' '/>
+         <img className="city-img" src='https://i.pinimg.com/originals/49/90/5b/49905bd871a462a878a91c577a867425.jpg'/>
 
          </div>
          <div className='col-md-2 card city-container shadow'>
-         <img className="city-img" src=' '/>
+         <img className="city-img" src='https://i.pinimg.com/originals/1d/60/2a/1d602a2fcb4a6d5a33f13976553fc9bc.jpg'/>
 
          </div>
        </div>

@@ -1,6 +1,7 @@
 .header{
   background-color: rgba(0, 0, 0, 1);
-  height: 60px;
+  /* height: 7 0px; */
+  padding-bottom: 5px;
 }
 .logo{
   padding: 18px;
@@ -62,4 +63,117 @@
 
 .user-login{
   padding: 0px 0px 0px 4px!important;
+}
+.social{
+ padding-left:100px;
+ padding-right:100px;
+
+
+}
+.login-button{
+  font-size: 16px;
+  font-weight: bold;
+}
+.register-button{
+  font-size: 16px;
+  font-weight: bold;
+}
+.input-style{
+  width: 100%!important;
+}
+.ant-input{
+  height: 90px;
+}
+.input-box{
+  margin: 5px;
+}
+.padd-box{
+  padding: 10px;
+}
+.sub-btn{
+  background-color: rgb(255, 204, 0);
+}
+.fb-icon{
+  font-size: 20px;
+ color: yellow;
+}
+.modal-dialog{
+  width: 27%;
+}
+.menu-icon{
+  color: white!important;
+  font-size: 26px;
+  text-align: left!important;
+
+}
+@media (max-width: 767.98px) {
+
+  .ant-menu{
+    text-align: center!important;
+      width: 100%!important;
+      /* background-color: rgba(0, 0, 0, 1)!important; */
+
+
+    }
+    .ant-menu-light{
+      width: 100%!important;
+      /* background-color: rgba(0, 0, 0, 1)!important; */
+
+    }
+     .ant-menu-root{
+      width: 100%!important;
+      /* background-color: rgba(0, 0, 0, 1)!important; */
+
+     }
+
+      .ant-menu-inline{
+  width: 100%!important;
+  /* background-color: rgba(0, 0, 0, 1)!important; */
+
+  }
+}
+.ant-menu{
+  text-align: center!important;
+    /* width: 30%!important; */
+    /* background-color: rgba(0, 0, 0, 1)!important; */
+
+
+  }
+  .ant-menu-light{
+    /* width: 30%!important; */
+    /* background-color: rgba(0, 0, 0, 1)!important; */
+
+  }
+   .ant-menu-root{
+    /* width: 30%!important; */
+    /* background-color: rgba(0, 0, 0, 1)!important; */
+
+   }
+
+    .ant-menu-inline{
+/* width: 30%!important; */
+/* background-color: rgba(0, 0, 0, 1)!important; */
+
+}
+.col{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* .navi{
+  color: white;
+} */
+.ant-menu-vertical{
+margin:0px!important;
+padding: 0px!important;
+  }
+   .ant-menu-submenu{
+margin:0px!important;
+padding: 0px!important;
+     }
+      .ant-menu-submenu-title{
+margin:0px!important;
+padding: 0px!important;
+      }
+.ant-menu-horizontal{
+      line-height: 28px!important;
 }

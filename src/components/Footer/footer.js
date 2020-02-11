@@ -34,7 +34,9 @@ const Footer = () => {
             <button className='footer-submit col btn'>Submit</button>
            </div>
            <p className='logo-text logos-text'>Don’t forget to follow us on:</p>
+           <div className='brand-icon'>
            <Icon type="twitter" className='brand'/> <Icon type="instagram" className='brand' /> <Icon type="facebook" className='brand'/>
+           </div>
          </div>
        </div>
        <div className='bottom container-fluid '>

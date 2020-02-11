@@ -25,25 +25,25 @@ const Search = () => {
                  <div className='container float-right icons'>
                  <div className='row col'>
                    <div className='col-sm'>
-                <i class="far fa-building icon-head"></i>
-                   </div>
-                   <div className='col-sm'>
-                <i class="far fa-building icon-head"></i>
-                   </div>
-                   <div className='col-sm'>
-                   <i class="far fa-building icon-head"></i>
 
                    </div>
                    <div className='col-sm'>
-                   <i class="far fa-building icon-head"></i>
 
                    </div>
                    <div className='col-sm'>
-                   <i class="far fa-building icon-head"></i>
+
 
                    </div>
                    <div className='col-sm'>
-                   <i class="far fa-building icon-head"></i>
+
+
+                   </div>
+                   <div className='col-sm'>
+
+
+                   </div>
+                   <div className='col-sm'>
+                 
                    </div>
                    </div>
                  </div>
