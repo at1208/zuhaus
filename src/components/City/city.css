@@ -1,0 +1,47 @@
+.city-heading{
+  padding-top: 100px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.city-sub-heading{
+  color: grey;
+  font-size: 20px;
+}
+.city-img{
+  height:300px;
+  padding:5px;
+}
+.city-bg{
+  background-image: url(https://zuhaus.qodeinteractive.com/wp-content/uploads/2017/10/home-background-img-2.jpg);
+  height: auto!important;
+  min-height: 350px!important;
+}
+.corousel{
+  background-image: url("https://zuhaus.qodeinteractive.com/wp-content/uploads/2017/10/home-parallax-1.png");
+   background-position: 50% 57px;
+   height: auto!important;
+   min-height: 420px!important;
+   font-family: 'Josefin Sans', sans-serif;
+   padding-top: 30px;
+}
+
+.special-offer{
+  font-size: 20px;
+}
+.carousel-inner{
+  height: 200px;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.city-container{
+  margin: 5px;
+}
+.col-md-2{
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+.box1{
+  height: 200px;
+}

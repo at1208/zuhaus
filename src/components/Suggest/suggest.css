@@ -1,0 +1,12 @@
+.suggest-city{
+  background-image: url("https://zuhaus.qodeinteractive.com/wp-content/uploads/2017/10/home-parallax-3.png");
+   background-position: 100% 0px;
+   height: auto!important;
+   min-height: 120px!important;
+   
+}
+.text-suggestion{
+    padding: 35px 0px 0px 12px;
+      font-family: 'Josefin Sans', sans-serif;
+
+}

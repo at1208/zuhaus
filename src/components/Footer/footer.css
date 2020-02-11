@@ -1,0 +1,71 @@
+.footer-bg{
+  background-color: #000000;
+
+}
+.cont{
+  padding: 57px 0px 0px 60px;
+}
+.contact{
+  color: white
+}
+.contactus{
+  padding: 18px 15px 0px 0px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.newsletter{
+    padding: 18px 15px 0px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.logo-text{
+  color: grey;
+  font-size: 13px;
+  font-family: 'Hind', sans-serif;
+
+}
+.logo-footer{
+  padding: 18px 0px 0px 0px;
+  /* height: 100%; */
+}
+.read{
+  color: white;
+  font-size: 13px;
+  font-weight: lighter!important;
+}
+.bottom{
+  padding: 17px;
+  background-color:#191919;
+}
+.container-fluid{
+  padding-right: 0px;
+    padding-left: 0px;
+}
+.copyright{
+    color: #9c9c9c;
+}
+.footer-submit{
+  background-color: rgb(255, 204, 0);
+  height: 35px!important;
+}
+.footer-input{
+  height: 35px!important;
+  width: 150px;
+  margin-right: 10px;
+}
+.h6{
+  margin-bottom: 2.5em!important;
+}
+.logos{
+    padding-top: 6px!important;
+}
+.logos-text{
+  padding: 17px 0px 0px 0px;
+}
+.brand{
+  color: white;
+  font-size: 20px;
+}
+.col-md-5{
+  padding-left: 0px;
+}

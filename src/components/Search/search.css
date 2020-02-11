@@ -1,0 +1,67 @@
+.bg-image{
+  background-image: url("https://zuhaus.qodeinteractive.com/wp-content/uploads/2017/10/h1-title-img.jpg");
+  background-position: 50% 28px;
+}
+.mkdf-parallax-row-holder {
+    height: auto!important;
+    min-height: 550px!important;
+    background-position: center top!important;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.mkdf-parallax-row-holder {
+    position: static;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.mkdf-parallax-row-holder, .vc_row .wpb_gmaps_widget .wpb_wrapper {
+    padding: 0;
+    background-color: transparent;
+}
+.search{
+box-sizing: border-box;
+padding-left: 15px;
+padding-right: 15px;
+width: 100%;
+}
+.search-heading{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  font-size: 60px;
+  margin-top: 70px;
+  margin-left: 40px
+}
+.search-button{
+  background-color: rgb(255, 204, 0);
+  margin-left: 3px;
+  width: 200px;
+  margin-bottom: 5px;
+ 
+
+}
+.ant-select-selection--single {
+
+    height: 40px!important;
+
+
+}
+.search-bar{
+  margin-top: 195px;
+}
+.icon-head{
+  font-size: 30px;
+  color: white;
+}
+.icons{
+  margin-top: 60px;
+}
+.inputs{
+  width: 100%;
+
+}
+ .col-md-4{
+   padding: 0px 5px;
+ }
