@@ -37,7 +37,7 @@ const Footer = () => {
            <Icon type="twitter" className='brand'/> <Icon type="instagram" className='brand' /> <Icon type="facebook" className='brand'/>
          </div>
        </div>
-       <div className='bottom container-fluid'>
+       <div className='bottom container-fluid '>
        <div className='text-center copyright'>Copyright © Mikado Themes 2017 All Rights Reserved</div>
        </div>
             </div>
