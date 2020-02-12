@@ -88,12 +88,11 @@ title={
 key="sub1"
 title={
 <span>
-
-  <span className='navi'>LANDOWNERS</span>
+<Link to='/landowner'><span className='navi'>LANDOWNERS</span></Link>
 </span>
 }
 >
- 
+
 </SubMenu>
 </Menu>
 }
@@ -152,10 +151,11 @@ title={
               <Menu mode="horizontal">
               <SubMenu
               title={
-              <span className="submenu-title-wrapper">
-
-        LANDOWNERS
-              </span>
+                <Link to='/landowner'>
+                <span className="submenu-title-wrapper">
+                LANDOWNERS
+               </span>
+               </Link>
               }
               >
 
