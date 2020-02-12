@@ -3,6 +3,7 @@ import './header.css';
 import { Icon, Modal, Input , Checkbox, Select, Menu} from 'antd';
 import 'antd/dist/antd.css';
 import { useMediaQuery } from 'react-responsive';
+import { Link } from 'react-router-dom';
 
 
 const { Option } = Select;
@@ -45,7 +46,7 @@ if(isTabletOrMobile){
             <div className='logo col row'>
               <Icon type="menu" className='menu-icon col-4' onClick={toggleValue}/>
               <div className='col-6'>
-                 <img className='logo-img text-center' src='logo-light.png' />
+                 <Link to='/'><img className='logo-img text-center' src='logo-light.png' /></Link>
               </div>
             </div>
 {menu && <Menu
@@ -64,9 +65,9 @@ title={
 </span>
 }
 >
-<Menu.Item key="setting:1">OUR SERVICES</Menu.Item>
-<Menu.Item key="setting:2">OUR MISSION & VISION</Menu.Item>
-<Menu.Item key="setting:3">OUR TEAM</Menu.Item>
+<Menu.Item key="setting:1"><Link to='/aboutUs'>OUR SERVICES</Link></Menu.Item>
+<Menu.Item key="setting:2"><Link to='/aboutUs'>OUR MISSION & VISION</Link></Menu.Item>
+<Menu.Item key="setting:3"><Link to='/aboutUs'>OUR TEAM</Link></Menu.Item>
 </SubMenu>
 <SubMenu
 key="sub2"
@@ -104,7 +105,7 @@ title={
 } else return <div className='container-fluid header'>
            <div className='row col'>
                <div className='logo col-md-1'>
-                <img className='logo-img' src='logo-light.png' />
+                 <Link to='/'><img className='logo-img' src='logo-light.png' /></Link>
                </div>
                <div className='buttons col-md-6 row'>
 
@@ -113,15 +114,14 @@ title={
               <SubMenu
               title={
               <span className=" ">
-
             ABOUT US
               </span>
               }
               >
 
-              <Menu.Item key="setting:1">OUR SERVICES</Menu.Item>
-              <Menu.Item key="setting:2">OUR MISSION & VISION</Menu.Item>
-              <Menu.Item key="setting:3">OUR TEAM</Menu.Item>
+              <Menu.Item key="setting:1"><Link to='/aboutUs'>OUR SERVICES</Link></Menu.Item>
+              <Menu.Item key="setting:2"><Link to='/aboutUs'>OUR MISSION & VISION</Link></Menu.Item>
+              <Menu.Item key="setting:3"><Link to='/aboutUs'>OUR TEAM</Link></Menu.Item>
 
               </SubMenu>
 
