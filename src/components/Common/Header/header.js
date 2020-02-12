@@ -93,9 +93,7 @@ title={
 </span>
 }
 >
-<Menu.Item key="setting:1">OUR SERVICES</Menu.Item>
-<Menu.Item key="setting:2">OUR MISSION & VISION</Menu.Item>
-<Menu.Item key="setting:3">OUR TEAM</Menu.Item>
+ 
 </SubMenu>
 </Menu>
 }
@@ -160,9 +158,7 @@ title={
               </span>
               }
               >
-              <Menu.Item key="setting:1">OUR SERVICES</Menu.Item>
-              <Menu.Item key="setting:2">OUR MISSION & VISION</Menu.Item>
-              <Menu.Item key="setting:3">OUR TEAM</Menu.Item>
+
               </SubMenu>
 
               </Menu>

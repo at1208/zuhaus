@@ -1,0 +1,39 @@
+.aboutus-header{
+  height: 45%!important;
+  width: 100%;
+}
+.about-img{
+
+  width: 100%;
+}
+.team-box{
+  /* height: 100px; */
+  padding: 70px;
+  background-color: #f3f3f3;
+}
+.designation{
+  font-weight: lighter;
+  color: grey!important;
+}
+.team-social{
+  font-size: 20px;
+  margin: 5px;
+  color: grey;
+}
+.team-member{
+  padding: 20px;
+}
+.each-member{
+
+}
+.about-info{
+  padding: 60px;
+}
+.services{
+  width: 100%;
+  /* height: 100%; */
+}
+.services-container{
+  /* height: 300px; */
+  /* padding: 40px; */
+}
