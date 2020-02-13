@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './landowners.css';
 import Header from '../../Common/Header/header';
 import 'antd/dist/antd.css';
+import { Radio } from 'antd'
 
 
 
@@ -23,11 +24,19 @@ const { Option } = Select;
 const AutoCompleteOption = AutoComplete.Option;
 
 
-class RegistrationForm extends React.Component {
+class RegistrationForm extends Component {
   state = {
     confirmDirty: false,
     autoCompleteResult: [],
+    value: 1,
   };
+
+  onChange = e => {
+     console.log('radio checked', e.target.value);
+     this.setState({
+       value: e.target.value,
+     });
+   };
 
   handleSubmit = e => {
     e.preventDefault();
@@ -45,12 +54,12 @@ class RegistrationForm extends React.Component {
 
     const formItemLayout = {
       labelCol: {
-        xs: { span: 24 },
+        xs: { span: 8 },
         sm: { span: 8 },
       },
       wrapperCol: {
-        xs: { span: 24 },
-        sm: { span: 16 },
+        xs: { span: 8 },
+        sm: { span: 12 },
       },
     };
     const tailFormItemLayout = {
@@ -82,176 +91,58 @@ class RegistrationForm extends React.Component {
       <>
       <Header />
       <div className='container text-center'>
+
+   <div className='select-button'>
+      <Radio.Group onChange={this.onChange} value={this.state.value}>
+       <Radio value={1}>BUY</Radio>
+       <Radio value={2}>Sell</Radio>
+       <Radio value={3}>Joint Venture</Radio>
+     </Radio.Group>
+   </div>
+
       <Form {...formItemLayout} onSubmit={this.handleSubmit}>
         <Form.Item label="Name">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+          <Input />
         </Form.Item>
 
         <Form.Item label="Mobile">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+           <Input />
         </Form.Item>
 
         <Form.Item label="E-mail">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+         <Input />
         </Form.Item>
 
 
         <Form.Item label="Address">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+           <Input />
         </Form.Item>
 
         <Form.Item label="City">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+           <Input />
         </Form.Item>
 
         <Form.Item label="State">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+         <Input />
         </Form.Item>
         <Form.Item label="Country">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+         <Input />
         </Form.Item>
         <Form.Item label="Dimension">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+         <Input />
         </Form.Item>
         <Form.Item label="Zone">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+        <Input />
         </Form.Item>
 
         <Form.Item label="Property face towards road">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+          <Input />
         </Form.Item>
         <Form.Item label="Description">
-          {getFieldDecorator('email', {
-            rules: [
-              {
-                type: 'email',
-                message: 'The input is not valid E-mail!',
-              },
-              {
-                required: true,
-                message: 'Please input your E-mail!',
-              },
-            ],
-          })(<Input />)}
+         <Input />
         </Form.Item>
 
-
-
-
-
-
-
-
+       <Button type="primary" block style={{ width: "50%"}}>Submit</Button>
       </Form>
       </div>
       </>
